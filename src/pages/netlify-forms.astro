@@ -60,6 +60,7 @@ import Layout from '../components/layout.astro';
       method="POST"
       name="contact"
       action="/success"
+      data-netlify="true"
     >
       <label htmlFor="name">Name</label>
       <input type="text" id="name" name="name" />
@@ -81,11 +82,3 @@ import Layout from '../components/layout.astro';
     </p>
   </main>
 </Layout>
-
-<form
-  class="form"
-  method="POST"
-  name="contact"
-  action="/success"
-  data-netlify="true"
->
